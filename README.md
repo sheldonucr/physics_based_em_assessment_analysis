@@ -29,10 +29,10 @@ II Matlab codes for ASP-DAC'16 [2]
     NOTE: random.m describes the general case. It gets the same results as model 1, model 2 and model 3 provided the same current and temperature waveforms.
     
 
-related_papers: contain the relevant papers published
+III related_papers: contain the relevant papers published
 
 
-References:
+IV References:
     
     [1] X. Huang, T. Yu, V. Sukharev and S. X.-D. Tan, “Physics-Based
     Electromigration Assessment for Power Grid Networks,” in
