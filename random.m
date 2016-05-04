@@ -81,7 +81,8 @@ Da = D0*exp(-Ea/kB./T);
 kappa = Da*B*Omega/kB./T;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% calculate stress (EM stress + residual_stress) at cathode end                 %                                                          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% calculate stress (EM stress + residual_stress) at cathode end                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 stress = zeros(M,1);
 N = 100;
 eta = (1:2:2*N-1)'*pi/L;

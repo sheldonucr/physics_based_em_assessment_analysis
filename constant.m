@@ -38,7 +38,8 @@ kappa = D0*exp(-Ea/kB/T)*B*Omega/kB/T;
 % curden: Current density                                                       %
 % tmax: Maximum stress time                                                     %
 % tstep: Time step                                                              %
-% loc: Coordinate along the wire                                                %                                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% loc: Coordinate along the wire                                                %                                        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 curden = 3e9; %(A.m^-2)
 tmax = 1e5; %(s);
 tstep = 1e3; %(s)
@@ -47,7 +48,8 @@ loc=0; % cathode end
 G = q*Z*resistivity_Cu*curden/Omega;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% calculate stress (EM stress + residual_stress) at cathode end                 %                                                          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% calculate stress (EM stress + residual_stress) at cathode end                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 M = size(t,2);
 stress = zeros(M,1);
 N = 100;
