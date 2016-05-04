@@ -38,7 +38,8 @@ kappa = D0*exp(-Ea/kB/T)*B*Omega/kB/T;
 % curden: Current density                                                       %
 % tmax: Maximum stress time                                                     %
 % tstep: Time step                                                              %
-% loc: Coordinate along the wire                                                %                                        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% loc: Coordinate along the wire                                                %                                        
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 curden = 3e9; %(A.m^-2)
 tmax = 1e5; %(s);
 tstep = 1e3; %(s)
