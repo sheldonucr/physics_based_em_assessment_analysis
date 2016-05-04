@@ -48,7 +48,8 @@ loc=0; % cathode end
 G = q*Z*resistivity_Cu*curden/Omega;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% calculate stress (EM stress + residual_stress) at cathode end                 %                                                          %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% calculate stress (EM stress + residual_stress) at cathode end                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 M = size(t,2);
 stress = zeros(M,1);
 N = 100;
