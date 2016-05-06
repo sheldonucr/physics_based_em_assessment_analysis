@@ -7,13 +7,14 @@ The motivations of this project
 # The new physics-based EM models
 The site contains the recently developed physics-based predictable EM models for general multi-branch interconnect trees and structures which can consider varying current and temperature stressing for both normal and stream stressing conditions. The new physics-based EM models and full-chip assessment techniques can perform model validation for accurate, yet efficient EM sign-off analysis at design stage and EM-aware reliability management at run time for nanometer VLSI chips. 
 
-The first new physics-accurate EM models was developped for single wire based on the first-principle based stress evolution phyiscs. The work was published in DAC'14. The model can predict the mean time to fialure (MTTF) of single wire stressed by constant current dentisty and temperature. 
+The first new physics-accurate EM models was developed for single wire based on the first-principle based stress evolution physics. The work was published in DAC'14. The model can predict the mean time to failure (MTTF) of single wire stressed by constant current dentistry and temperature. 
 
-The secon physics-based EM model is an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16. 
+The second physics-based EM model is an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16. 
 
-# Matlab codes for the newly developed phyiscs-based EM models:
+# Matlab codes for the newly developed physics-based EM models:
 
-I Matlab codes for DAC'14 [1]
+
+## I Matlab codes for DAC'14 [1]
 
     time_to_failure.m
     
@@ -23,7 +24,7 @@ I Matlab codes for DAC'14 [1]
    
         t_grow: eq(7)
 
-II Matlab codes for ASP-DAC'16 [2]
+## II Matlab codes for ASP-DAC'16 [2]
 
     1. constant.m
     
@@ -44,10 +45,10 @@ II Matlab codes for ASP-DAC'16 [2]
     NOTE: random.m describes the general case. It gets the same results as model 1, model 2 and model 3 provided the same current and temperature waveforms.
     
 
-III related_papers: contain the relevant papers published
+## III related_papers: contain the relevant papers published
 
 
-IV References:
+## IV References:
     
     [1] X. Huang, T. Yu, V. Sukharev and S. X.-D. Tan, “Physics-Based
     Electromigration Assessment for Power Grid Networks,” in
