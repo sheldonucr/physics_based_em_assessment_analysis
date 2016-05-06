@@ -7,9 +7,9 @@ The motivations of this project
 # The new physics-based EM models
 The site contains the recently developed physics-based predictable EM models for general multi-branch interconnect trees and structures which can consider varying current and temperature stressing for both normal and stream stressing conditions. The new physics-based EM models and full-chip assessment techniques can perform model validation for accurate, yet efficient EM sign-off analysis at design stage and EM-aware reliability management at run time for nanometer VLSI chips. 
 
-The first new physics-accurate EM models was developed for single wire based on the first-principle based stress evolution physics. The work was published in DAC'14. The model can predict the mean time to failure (MTTF) of single wire stressed by constant current dentistry and temperature. 
+The first new physics-accurate EM model was developed for single wire based on the first-principle based stress evolution physics. The work was published in DAC'14. The model can predict the mean time to failure (MTTF) of single wire stressed by constant current dentistry and temperature. 
 
-The second physics-based EM model is an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16. 
+The second physics-based EM model was an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16. 
 
 # Matlab codes for the newly developed physics-based EM models:
 
