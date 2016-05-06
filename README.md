@@ -1,20 +1,22 @@
-# Background
+# Physics-based Electromigration models and assessment software
+
+## Introduction
 Reliability is becoming a limiting constraint in high-performance nanometer VLSI chip designs due to the high failure rates in deep submicron and nanoscale devices. It was expected that the future chips will show sign of reliability-induced age much faster than the previous generations. Among of many reliability effects, electromigration (EM)-induced reliability has become a major design constraint due to aggressive transistor scaling and increasing power density.
 
 Electromigration (EM) is a physical phenomenon of the oriented migration of metal (Cu) atoms along a direction of applied electrical field due to the momentum exchange between atoms and the conducting electrons. Migration of atoms results in metal density depletion or accumulation, which leads to build-up of hydrostatic stresses across the conductor. EM can degrade both global interconnects such as power grid networks and signal wires when the current densities are sufficiently high (about 1MA/cm^2). However, the power grid networks are more susceptible to EM effects due to the conduction of unidirectional currents.
 The motivations of this project
 
-# The new physics-based EM models
+## The new physics-based EM models
 The site contains the recently developed physics-based predictable EM models for general multi-branch interconnect trees and structures which can consider varying current and temperature stressing for both normal and stream stressing conditions. The new physics-based EM models and full-chip assessment techniques can perform model validation for accurate, yet efficient EM sign-off analysis at design stage and EM-aware reliability management at run time for nanometer VLSI chips. 
 
 The first new physics-accurate EM model was developed for single wire based on the first-principle based stress evolution physics. The work was published in DAC'14. The model can predict the mean time to failure (MTTF) of single wire stressed by constant current dentistry and temperature. 
 
 The second physics-based EM model was an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16. 
 
-# Matlab codes for the newly developed physics-based EM models:
+## Matlab codes for the newly developed physics-based EM models:
 
 
-## I Matlab codes for DAC'14 [1]
+### I Matlab codes for DAC'14 [1]
 
     time_to_failure.m
     
@@ -24,7 +26,7 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
    
         t_grow: eq(7)
 
-## II Matlab codes for ASP-DAC'16 [2]
+### II Matlab codes for ASP-DAC'16 [2]
 
     1. constant.m
     
@@ -45,10 +47,10 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
     NOTE: random.m describes the general case. It gets the same results as model 1, model 2 and model 3 provided the same current and temperature waveforms.
     
 
-## III related_papers: contain the relevant papers published
+### III related_papers: contain the relevant papers published
 
 
-## IV References:
+### IV References:
     
     [1] X. Huang, T. Yu, V. Sukharev and S. X.-D. Tan, “Physics-Based
     Electromigration Assessment for Power Grid Networks,” in
