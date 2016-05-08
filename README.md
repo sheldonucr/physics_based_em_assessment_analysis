@@ -46,6 +46,55 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
    
     NOTE: random.m describes the general case. It gets the same results as model 1, model 2 and model 3 provided the same current and temperature waveforms.
     
+### III Matlab codes for TCAD'16 [3]
+
+    1. gfunction.m
+    
+        Computing the basis function (eq(16)).
+ 
+    2. stress3terminals.m
+    
+        Computing the stress evolution for the 3-terminal interconnect tree.
+        
+    3. stressone3terminals.m
+    
+        Computing the stress evolution along the segment 1 of the 3-terminal interconnect tree (eq17).
+    
+    4. stresstwo3terminals.m
+    
+        Computing the stress evolution along the segment 2 of the 3-terminal interconnect tree (eq18).
+        
+    5. stress4terminals.m
+    
+        Computing the stress evolution for the 4-terminal interconnect tree.
+        
+    6. stressone4terminals.m
+    
+        Computing the stress evolution along the segment 1 of the 4-terminal interconnect tree (eq23).
+    
+    7. stresstwo4terminals.m   
+        Computing the stress evolution along the segment 2 of the 4-terminal interconnect tree (eq24).
+        
+    8. stressthree4terminals.m   
+        Computing the stress evolution along the segment 3 of the 4-terminal interconnect tree (eq25).
+        
+    9. stress5terminals.m
+    
+        Computing the stress evolution for the 5-terminal interconnect tree.
+        
+    10. stressone5terminals.m
+    
+        Computing the stress evolution along the segment 1 of the 5-terminal interconnect tree (eq26).
+    
+    11. stresstwo5terminals.m   
+        Computing the stress evolution along the segment 2 of the 5-terminal interconnect tree (eq27).
+        
+    12. stressthree5terminals.m   
+        Computing the stress evolution along the segment 3 of the 5-terminal interconnect tree (eq28).
+        
+    14. stressfour4terminals.m   
+        Computing the stress evolution along the segment 4 of the 5-terminal interconnect tree (eq29).
+
 
 ### III related_papers: contain the relevant papers published
 
@@ -61,3 +110,5 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
     Time-Dependent Current and Temperature Stressing," in Proc. Asia
     South Pacific Design Automation Conf. (ASP-DAC’16), Macao,
     Jan, 2016. [aspdac16em_dyn.pdf]
+    
+    [3] H. Chen, S. X.-D. Tan, X. Huang, T. Kim, V. Sukharev, “Analytical modeling and characterization of electromigration effects for multi-branch interconnect trees”, IEEE Transaction on Computer-Aided Design of Integrated Circuits and Systems (TCAD), (in press) [tcad16tree-em.pdf]
