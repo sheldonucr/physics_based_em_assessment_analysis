@@ -92,7 +92,7 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
     12. stressthree5terminals.m   
         Computing the stress evolution along the segment 3 of the 5-terminal interconnect tree (eq28).
         
-    14. stressfour4terminals.m   
+    13. stressfour4terminals.m   
         Computing the stress evolution along the segment 4 of the 5-terminal interconnect tree (eq29).
 
 
@@ -111,4 +111,7 @@ The second physics-based EM model was an extension of the first EM models (DAC'1
     South Pacific Design Automation Conf. (ASP-DAC’16), Macao,
     Jan, 2016. [aspdac16em_dyn.pdf]
     
-    [3] H. Chen, S. X.-D. Tan, X. Huang, T. Kim, V. Sukharev, “Analytical modeling and characterization of electromigration effects for multi-branch interconnect trees”, IEEE Transaction on Computer-Aided Design of Integrated Circuits and Systems (TCAD), (in press) [tcad16tree-em.pdf]
+    [3] H. Chen, S. X.-D. Tan, X. Huang, T. Kim, V. Sukharev, 
+    “Analytical modeling and characterization of electromigration effects 
+    for multi-branch interconnect trees”, IEEE Transaction on Computer-Aided 
+    Design of Integrated Circuits and Systems (TCAD), (in press) [tcad16tree-em.pdf]
