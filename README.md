@@ -15,7 +15,7 @@ The first part is the new physics-accurate EM model was developed for single wir
 
 The second part is the second physics-based EM model was an extension of the first EM models (DAC'14) for considering the time-varying current density and temperature. We call it dynamic EM models. The work has been published in ASPDAC'16 (aspdac16em_dyn.pdf). 
 
-The third part of the codes is for the compact EM models for multl-branch interconnect wires. The detailed descriptions are given in the DAC'15 and corresponding TCAD'16 (tcad16tree-em.pdf) papers shown below.
+The third part of the codes is for the compact EM models for multl-branch interconnect wires. The detailed descriptions are given in the TCAD'16 (tcad16tree-em.pdf) paper shown below.
 
 ## Matlab codes for the newly developed physics-based EM models:
 
