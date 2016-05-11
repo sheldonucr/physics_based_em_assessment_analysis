@@ -18,7 +18,7 @@ The second part is the second physics-based EM model was an extension of the fir
 The third part of the codes consists of the compact EM models for multl-branch interconnect wires. The detailed descriptions are given in the TCAD'16 (tcad16tree-em.pdf) paper shown below.
 
 
-## Majore feature of the new EM models
+## Main feature of the new EM models
 
 * Physics-based EM predictable model, which consists of void nucleation phase and void growth phase.  
 * Consider the time-varying current (power) density and temperature impacts in EM effects 
