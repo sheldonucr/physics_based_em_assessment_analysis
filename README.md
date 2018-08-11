@@ -108,6 +108,11 @@ The third part of the codes consists of the compact EM models for multl-branch i
         Computing the stress evolution along the segment 4 of the 5-terminal interconnect tree (eq29).
 
 
+### COMSOL code for 1D two/multi segment analysis
+
+In the COMSOL_SRC directory
+    14. EM_1D_via_branch.mph: the 1D two segment COMSOL analysis code based on the Korhonen's equation and block matieral        boundary conditions. 
+    
 ### III related_papers: contain the relevant papers published
 
 
